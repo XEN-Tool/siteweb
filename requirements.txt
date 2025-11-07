@@ -1,0 +1,11 @@
+# Python libs required by the DTP panel
+Flask==2.2.5
+requests==2.31.0
+pythonping==0.4.4
+dnspython==2.4.2
+
+# Production WSGI server (recommended)
+gunicorn==20.1.0
+
+# Optional (Windows-friendly production server)
+waitress==2.1.2
